@@ -19,6 +19,7 @@
 		<parent-artifactId>office-parent</parent-artifactId>
 	</properties>
 	<modules>
+		<module>../office-common</module>
 		<module>../office-core</module>
 		<module>../office-webservices</module>
 	</modules>
@@ -314,6 +315,11 @@
 			<!-- 项目依赖 -->
 			<dependency>
 				<groupId>${project.groupId}</groupId>
+				<artifactId>office-common</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
 				<artifactId>office-core</artifactId>
 				<version>${project.version}</version>
 			</dependency>
@@ -322,6 +328,7 @@
 				<artifactId>office-webservices</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+
 
 
 			<!-- 定时任务 -->

@@ -197,7 +197,10 @@
 			<artifactId>commons-logging</artifactId>
 		</dependency>
 		<!-- commons END -->
-
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>office-common</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
